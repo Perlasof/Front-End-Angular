@@ -1,0 +1,40 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(98, 187, 223);
+    
+}
+#logoAP{
+    width: 150px;
+}
+img{
+    width: 25px;
+}
+
+.button {
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .button1:hover {
+    background-color: white; 
+    color: rgb(98, 187, 223); 
+   
+  }
+  
+  .button1 {
+    background-color: lightblue;;
+    color: white;
+  }
+  
+  

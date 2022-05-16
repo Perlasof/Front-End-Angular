@@ -1,0 +1,21 @@
+.row{
+    background-color: rgb(98, 187, 223);
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+footer{
+    color:antiquewhite;
+    text-align: center;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     background-color: rgb(98, 187, 223);
+    
+}

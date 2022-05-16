@@ -1,0 +1,48 @@
+.row{
+    padding: 20px;
+}
+
+div{
+    background-color: rgb(98, 187, 223);
+    text-align: center;
+}
+
+@media (min-width:576px) {
+    #fotoperfil{
+        position:absolute;
+        width: 152px;
+        height: 152px;
+        border-radius: 50%;
+        margin-top: -110px;
+        z-index: 1;
+        box-shadow: 2px 2px 2px whitesmoke;
+        left:50%;
+        top: 5px;
+        border: 2px solid whitesmoke;
+    }
+}
+
+@media (max-width:575px) {
+    #fotoperfil{
+        position:absolute;
+        width:30%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px whitesmoke;
+        left:33%;
+        top:40px;
+        border: 2px solid whitesmoke;
+    }
+}
+
+#nombre{
+    font-weight: bold;
+    color:whitesmoke;
+    font-size: 20px;
+    margin-top: 40%;
+   
+
+   
+    
+    
+    
+}

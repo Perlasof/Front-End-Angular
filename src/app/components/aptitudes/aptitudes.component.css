@@ -1,0 +1,15 @@
+.row{
+     
+    padding: 20px;
+   
+}
+
+div{
+    background: lightblue;
+}
+.circle{
+    margin:1em;
+    padding:1em;
+    float:left;
+    text-align: justify;
+}
