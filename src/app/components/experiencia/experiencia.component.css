@@ -2,7 +2,8 @@
     padding: 20px;
 }
 div{
-    background: lightblue;
+    background: rgb(146, 206, 226);
+    border-radius: 0px 0px 20px 20px;
 }
 h2, h3{
     display: inline;

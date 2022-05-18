@@ -5,7 +5,8 @@
 }
 
 div{
-    background: lightblue;
+    background: rgb(146, 206, 226);
+    border-radius: 20px;
 }
 .circle{
     margin:1em;

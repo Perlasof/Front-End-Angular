@@ -5,6 +5,7 @@
 div{
     background-color: rgb(98, 187, 223);
     text-align: center;
+   
 }
 
 @media (min-width:576px) {
@@ -38,7 +39,8 @@ div{
     font-weight: bold;
     color:whitesmoke;
     font-size: 20px;
-    margin-top: 40%;
+    margin-top: 10%;
+   
    
 
    
