@@ -6,8 +6,9 @@
         <div class="redes">
             <a href="https://www.facebook.com/perla.gonzalez.7334" target="_blank"><img src="../../../assets/FaceB.png" id="facebook"></a>&nbsp;
             <a href="https://www.instagram.com/perlasofia18/?utm_source=qr" target="_blank"><img src="../../../assets/InstaB.png" id="instagram"></a>&nbsp;
-            <a href="https://github.com/Perlasof/"><img src="../../../assets/GitHub.png" target="_blank" id="github"></a>&nbsp;&nbsp;
-            <button type="button" class="button button1">INGRESO</button>
+            <a href="https://github.com/Perlasof/" target="_blank"><img src="../../../assets/GitHub.png" target="_blank" id="github"></a>&nbsp;&nbsp;
+            <button type="button" class="button button1" (click)="login()" *ngIf="!isLogged">INGRESO</button>
+            <button type="button" class="button button1" (click)="onLogOut()" *ngIf="isLogged">CERRAR SESION</button>
         </div>
     </div>
 </div>

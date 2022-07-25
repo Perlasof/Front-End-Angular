@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA} from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -15,6 +15,14 @@ import { FooterComponent } from './components/footer/footer.component';
 import { AcercaDeComponent } from './components/acerca-de/acerca-de.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
 import { HttpClientModule } from '@angular/common/http';
+import { IniciarSesionComponent } from './components/iniciar-sesion/iniciar-sesion.component';
+import { PorfolioComponent } from './components/porfolio/porfolio.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { AngularMaterialModule } from './angular-material.module';
+import { interceptorProvider } from './service/interceptor-service';
+
+
 
 @NgModule({
   declarations: [
@@ -27,7 +35,9 @@ import { HttpClientModule } from '@angular/common/http';
     AptitudesComponent,
     ProyectosComponent,
     FooterComponent,
-    AcercaDeComponent
+    AcercaDeComponent,
+    IniciarSesionComponent,
+    PorfolioComponent
    
   ],
   imports: [
@@ -35,9 +45,16 @@ import { HttpClientModule } from '@angular/common/http';
     AppRoutingModule,
     FontAwesomeModule,
     NgCircleProgressModule.forRoot({}),
-    HttpClientModule
+    HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule,
+    BrowserAnimationsModule,
+    AngularMaterialModule,
   ],
-  providers: [],
-  bootstrap: [AppComponent]
+  providers: [
+    interceptorProvider
+  ],
+  bootstrap: [AppComponent],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class AppModule { }
