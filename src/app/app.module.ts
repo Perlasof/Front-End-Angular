@@ -21,8 +21,10 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AngularMaterialModule } from './angular-material.module';
 import { interceptorProvider } from './service/interceptor-service';
-
-
+import { NewExperienciaComponent } from './components/experiencia/new-experiencia/new-experiencia.component';
+import { EditExperienciaComponent } from './components/experiencia/edit-experiencia/edit-experiencia.component';
+import { NewEducacionComponent } from './components/educacion/new-educacion/new-educacion.component';
+import { EditEducacionComponent } from './components/educacion/edit-educacion/edit-educacion.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +33,11 @@ import { interceptorProvider } from './service/interceptor-service';
     LogosComponent,
     BannerComponent,
     ExperienciaComponent,
+    NewExperienciaComponent,
+    EditExperienciaComponent,
     EducacionComponent,
+    NewEducacionComponent,
+    EditEducacionComponent,
     AptitudesComponent,
     ProyectosComponent,
     FooterComponent,
